@@ -20,9 +20,9 @@ class UsersTableSeeder extends Seeder
         $role = new Role();
 
         $user->create([
-            'name' => 'Super admin',
-            'email' => 'superadmin@example.com',
-            'password' => bcrypt($defaultPassword),
+            'name' => 'Matt',
+            'email' => 'matt@clinicalprofits.com',
+            'password' => env('ADMIN_PASSWORD'),
             'active' => true,
             'confirmed' => true,
             'locale' => app()->getLocale(),
