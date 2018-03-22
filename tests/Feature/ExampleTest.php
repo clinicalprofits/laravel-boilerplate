@@ -12,7 +12,7 @@ class ExampleTest extends TestCase
     /**
      * A basic test example.
      */
-    public function testBasicTest()
+    public function test_basic_feature_test()
     {
         $response = $this->get('/');
 
